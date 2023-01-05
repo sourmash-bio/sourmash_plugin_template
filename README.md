@@ -9,6 +9,9 @@ Note: for now, depends on
 ## Instructions
 
 You can use this repo as a template repo to create a new plugin!
+Read details below - and
+[here](https://github.com/ctb/sourmash_plugin_template_test1/pull/1)
+is a set of diffs showing you the minimal changes needed.
 
 First, go to [the GitHub page](https://github.com/sourmash-bio/sourmash_plugin_template) and click "Use this template" to create a new repository.
 
@@ -30,3 +33,4 @@ convenient for development.
 and
 [sourmash_plugin_load_urls](https://github.com/sourmash-bio/sourmash_plugin_load_urls)
 are two examples you can follow.
+
