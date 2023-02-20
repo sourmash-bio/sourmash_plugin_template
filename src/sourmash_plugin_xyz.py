@@ -52,3 +52,21 @@ class SaveSignatures_XYZ(Base_SaveSignaturesToLocation):
     def add(self, ss):
         super().add(ss)
         self.keep.append(ss)
+
+#
+# CLI plugin - supports 'sourmashs scripts xyz'
+#
+        
+class cmd_xyz:
+    command = 'xyz'
+    description = "does a thing"
+
+    def __init__(self, subparser):
+        super().__init__(p)
+        # add argparse arguments here.
+        debug_literal('RUNNING cmd_xyz.__init__')
+
+    def main(self, args):
+        # code that we actually run.
+        super().main(args)
+        print('RUNNING cmd', self, args)
