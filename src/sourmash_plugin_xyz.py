@@ -56,7 +56,7 @@ class SaveSignatures_XYZ(Base_SaveSignaturesToLocation):
 #
 # CLI plugin - supports 'sourmashs scripts xyz'
 #
-        
+
 class cmd_xyz:
     command = 'xyz'
     description = "does a thing"
