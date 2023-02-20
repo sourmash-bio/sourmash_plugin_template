@@ -3,8 +3,7 @@
 This is a good place to start if you're writing a plugin for
 [sourmash (sourmash-bio/sourmash/)](https://github.com/sourmash-bio/sourmash/).
 
-Note: for now, depends on
-[sourmash#2428](https://github.com/sourmash-bio/sourmash/pull/2428).
+Note: plugins are not yet available in a released version of sourmash.
 
 ## Instructions
 
