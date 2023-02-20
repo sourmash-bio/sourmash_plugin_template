@@ -55,7 +55,7 @@ class SaveSignatures_XYZ(Base_SaveSignaturesToLocation):
         self.keep.append(ss)
 
 #
-# CLI plugin - supports 'sourmashs scripts xyz'
+# CLI plugin - supports 'sourmash scripts xyz'
 #
 
 class Command_XYZ(CommandLinePlugin):
