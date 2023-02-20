@@ -3,6 +3,7 @@ import sourmash
 
 from sourmash.index import LinearIndex
 from sourmash.logging import debug_literal
+from sourmash.plugins import CommandLinePlugin
 
 from sourmash.save_load import (Base_SaveSignaturesToLocation,
                                 _get_signatures_from_rust)
@@ -57,7 +58,7 @@ class SaveSignatures_XYZ(Base_SaveSignaturesToLocation):
 # CLI plugin - supports 'sourmashs scripts xyz'
 #
 
-class cmd_xyz:
+class Command_XYZ(CommandLinePlugin):
     command = 'xyz'
     description = "does a thing"
 
