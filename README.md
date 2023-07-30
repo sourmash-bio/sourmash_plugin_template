@@ -34,3 +34,28 @@ and
 [sourmash_plugin_load_urls](https://github.com/sourmash-bio/sourmash_plugin_load_urls)
 are two examples you can follow.
 
+## Template docs for new plugin built from this template.
+
+Delete everything from this line on up and put in your new README ;).
+
+# sourmash_plugin_xyz
+
+## Installation
+
+```
+pip install sourmash_plugin_xyz
+```
+
+## Generating a release
+
+Bump version number in `pyproject.toml` and push.
+
+Make a new release on github.
+
+Then pull, and:
+
+```
+python -m build
+```
+
+followed by `twine upload dist/...`.

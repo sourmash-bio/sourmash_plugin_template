@@ -1,4 +1,4 @@
-"Read/write sketches via plugin."
+"xyz plugin main file"
 import sourmash
 
 from sourmash.index import LinearIndex
