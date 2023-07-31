@@ -1,4 +1,16 @@
-"xyz plugin main file"
+"""xyz plugin description"""
+
+usage="""
+   sourmash scripts xyz
+"""
+
+epilog="""
+See https://github.com/xyz for more examples.
+
+Need help? Have questions? Ask at http://github.com/sourmash/issues!
+"""
+
+import argparse
 import sourmash
 
 from sourmash.index import LinearIndex
@@ -59,8 +71,11 @@ class SaveSignatures_XYZ(Base_SaveSignaturesToLocation):
 #
 
 class Command_XYZ(CommandLinePlugin):
-    command = 'xyz'
-    description = "does a thing"
+    command = 'xyz'             # 'scripts <command>'
+    description = __doc__       # output with -h
+    usage = usage               # output with no args/bad args as well as -h
+    epilog = epilog             # output with -h
+    formatter_class = argparse.RawTextHelpFormatter # do not reformat multiline
 
     def __init__(self, subparser):
         super().__init__(subparser)
