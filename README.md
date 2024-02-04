@@ -3,7 +3,7 @@
 This is a good place to start if you're writing a plugin for
 [sourmash (sourmash-bio/sourmash/)](https://github.com/sourmash-bio/sourmash/).
 
-Note: plugins are not yet available in a released version of sourmash.
+Note: plugins were added in [sourmash v4.7.0](https://github.com/sourmash-bio/sourmash/releases/tag/v4.7.0).
 
 ## Instructions
 
