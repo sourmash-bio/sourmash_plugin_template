@@ -58,6 +58,13 @@ We suggest filing issues in [the main sourmash issue tracker](https://github.com
 
 `xyz` is developed at https://github.com/sourmash-bio/sourmash_plugin_template.
 
+### Testing
+
+Run:
+```
+pytest tests
+```
+
 ### Generating a release
 
 Bump version number in `pyproject.toml` and push.

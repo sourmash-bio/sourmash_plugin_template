@@ -7,7 +7,7 @@ usage="""
 epilog="""
 See https://github.com/xyz for more examples.
 
-Need help? Have questions? Ask at http://github.com/sourmash/issues!
+Need help? Have questions? Ask at http://github.com/sourmash-bio/sourmash/issues!
 """
 
 import argparse
