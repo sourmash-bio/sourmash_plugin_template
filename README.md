@@ -74,7 +74,7 @@ Make a new release on github.
 Then pull, and:
 
 ```
-python -m build
+make dist
 ```
 
 followed by `twine upload dist/...`.
