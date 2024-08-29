@@ -1,4 +1,4 @@
-.PHONY: dist
+.PHONY: dist all test install
 
 all: test
 
