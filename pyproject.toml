@@ -1,4 +1,4 @@
-# CTB: search for XYZ and replace with plugin-specific information!
+# CTB: use 'git grep -i xyz' to search for XYZ and replace with plugin name!
 
 [project]
 name = "sourmash_plugin_XYZ"
