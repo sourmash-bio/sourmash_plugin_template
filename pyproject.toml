@@ -1,4 +1,4 @@
-# CTB: search for XYZ and replace with plugin-specific information!
+# CTB: use 'git grep -i xyz' to search for XYZ and replace with plugin name!
 
 [project]
 name = "sourmash_plugin_XYZ"
@@ -7,7 +7,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 version = "0.1"
 
-dependencies = ["sourmash>=4.8.8,<5"]
+dependencies = ["sourmash>=4.8.11,<5"]
 
 [metadata]
 license = { text = "BSD 3-Clause License" }

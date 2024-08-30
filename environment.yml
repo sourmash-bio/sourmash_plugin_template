@@ -1,0 +1,10 @@
+name: sourmash_plugin_env
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - sourmash>=4.8.11,<5
+    - pip
+    - pytest
+    - make
