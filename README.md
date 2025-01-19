@@ -40,6 +40,11 @@ Delete everything from this line on up and put in your new README ;).
 
 # sourmash_plugin_xyz
 
+[sourmash](https://sourmash.bio) is a tool for biological sequence
+analysis and comparisons.
+
+The xyz plugin provides functionality to do XYZ.
+
 ## Installation
 
 ```
